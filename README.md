@@ -1,35 +1,14 @@
-# Demonstration profiles to be deployed with QDT
 
-pensée a écrire le read me ...
+## Profile LPO BFC naturaliste déployé avec QDT
 
-## Naturaliste
+Quelques points de personnalisation du profiles :
 
-Some of customizations to make it recognizable:
-
-- blablabla
-![QGIS UI - QDT demo profile](https://github.com/Guts/qgis-deployment-cli/blob/main/docs/static/examples_profiles_qdt-demo_qgis_ui.png?raw=true)
-
-Splash screen:
-![QGIS splash screen - QDT demo profile](./profiles/demo/images/splash.png)
-
-As QDT developer, you might want to launch QGIS with this profile to edit or check it:
-
-```sh
-qgis --profile "demo" --profiles-path examples/
-```
-
-----
-
-## Dev
-
-![QGIS splash screen - QDT viewer profile](./profiles/Viewer%20Mode/images/splash.png)
-
-As QDT developer, you might want to launch QGIS with this profile to edit or check it:
-
-```sh
-qgis --profile "Viewer Mode" --profiles-path examples/
-```
+- Déployement des différents plugins (dont plugin LPO)
+- Accès à la base de données (Géonature BFC)
+- Gestion des éléments de décoration (template carto, logo, palette de couleur)
+- Gestion des différents flux WMS
+- Panneau d'accès pour ajouter certaine couches géographiques (N2000, Réserve Naturelle, ...)
 
 VSCode extension required:
 
-- https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
+- <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml>
