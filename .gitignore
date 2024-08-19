@@ -1,0 +1,14 @@
+# -- Tooling
+.venv
+
+# -- QDT usual patterns --
+
+# Common
+!.gitkeep
+*.log
+
+# QGIS Profiles
+profiles/*/python/plugins/
+profiles/*/previewImages/
+*.db
+*.*~
