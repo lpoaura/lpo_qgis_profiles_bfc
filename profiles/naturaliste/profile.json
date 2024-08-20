@@ -3,12 +3,12 @@
   "name": "bfc_naturaliste",
   "folder_name": "bfc_naturaliste",
   "description": "QGIS profil pour les chargé.e.s de mission Naturaliste à la LPO.",
-  "author": "Pôle système d'information",
+  "author": "LPO Auvergne-Rhône-Alpes",
   "email": "aura.support@lpo.fr",
   "icon": "images/logo_qgis_lpo.ico",
   "qgisMinimumVersion": "3.28.0",
   "qgisMaximumVersion": "3.99.10",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "plugins": [
     {
       "name": "Bezier Editing",
