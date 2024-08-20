@@ -54,28 +54,28 @@
     },
     {
       "name": "ExcelSync",
-      "folder_name": "ExcelSync",
+      "folder_name": "qgis_excel_sync",
       "official_repository": true,
       "plugin_id": 1712,
-      "version": "3.6.0"
+      "version": "3.6"
     },
     {
       "name": "Graphab",
-      "folder_name": "Graphab",
+      "folder_name": "graphab4qgis",
       "official_repository": true,
       "plugin_id": 2270,
       "version": "0.6.6"
     },
     {
       "name": "QuickMapServices",
-      "folder_name": "QuickMapServices",
+      "folder_name": "quickmapservices",
       "official_repository": true,
       "plugin_id": 663,
       "version": "0.19.34"
     },
     {
       "name": "Processing Saga NextGen Provider",
-      "folder_name": "SagaNextGen",
+      "folder_name": "processing_saga_nextgen",
       "official_repository": true,
       "plugin_id": 1666,
       "version": "1.0.0"
