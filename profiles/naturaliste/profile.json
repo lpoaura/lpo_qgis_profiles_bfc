@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
   "name": "bfc_naturaliste",
   "folder_name": "bfc_naturaliste",
-  "description": "QGIS profile pour les chargé.e.s de mission Naturaliste à la LPO.",
+  "description": "QGIS profil pour les chargé.e.s de mission Naturaliste à la LPO.",
   "author": "Pôle système d'information",
   "email": "aura.support@lpo.fr",
   "icon": "images/logo_qgis_lpo.ico",
@@ -65,71 +65,6 @@
       "official_repository": true,
       "plugin_id": 766,
       "version": "2.1.2"
-    }
-  ],
-  "rules": [
-    {
-      "name": "Domaine",
-      "description": "Restriction de diffusion sur les groupes AD ou OS",
-      "conditions": {
-        "any": [
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_01",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_07",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_07",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_26",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_38",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_42",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_63",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_69",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_73",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_74",
-            "operator": "contains"
-          },
-          {
-            "path": "$.environment.operating_system_code",
-            "value": "linux",
-            "operator": "equal"
-          }
-        ]
-      }
     }
   ]
 }
