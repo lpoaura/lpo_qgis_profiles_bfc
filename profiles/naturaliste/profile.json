@@ -54,7 +54,7 @@
     },
     {
       "name": "ExcelSync",
-      "folder_name": "qgis_excel_sync",
+      "folder_name": "excel_sync",
       "official_repository": true,
       "plugin_id": 1712,
       "version": "3.6"
@@ -68,7 +68,7 @@
     },
     {
       "name": "QuickMapServices",
-      "folder_name": "quickmapservices",
+      "folder_name": "quick_map_services",
       "official_repository": true,
       "plugin_id": 663,
       "version": "0.19.34"
