@@ -2,7 +2,7 @@
 
 metadata:
   title: "Scenario installation QGIS LPO BFC"
-  id: qdt-lpo
+  id: qdt-lpo-bfc
   description: >-
     LPO BFC QGIS installation
 
@@ -23,7 +23,7 @@ steps:
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
     with:
-      source: https://github.com/lpoaura/lpo_qgis_profiles_BFO.git
+      source: https://github.com/lpoaura/lpo_qgis_profiles_bfc.git
       protocol: git_remote
       branch: main
 
@@ -50,7 +50,7 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: naturaliste
+        - profile: bfc_naturaliste
           label: "QGIS LPO BFC"
           desktop: true
           start_menu: true
